@@ -1,0 +1,938 @@
+[LicensingClient] ERROR Failed to connect to local IPC
+[Licensing::Module] Failed to connect to channel: LicenseClient-ratozumbi
+[Licensing::Module] Successfully launched the LicensingClient
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-ratozumbi
+[Licensing::Module] Successfully launched and connected to LicensingClient
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+
+LICENSE SYSTEM [20201028 3:52:47] Next license update check is after 2020-10-01T21:14:44
+
+
+LICENSE SYSTEM [20201028 3:52:47] Machine binding 1 mismatch: (value of current machine) 00330-80100-10002-AA693 != 00330-80100-10002-AA274 (value in license file). Reason might be there is a hardware change on this machine after the license was activated.
+
+
+LICENSE SYSTEM [20201028 3:52:47] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+Built from '2019.4/staging' branch; Version is '2019.4.9f1 (50fe8a171dd9) revision 5308042'; Using compiler version '191627012'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'pt' Physical Memory: 16279 MB
+[Licensing::Module] Serial number assigned to: "F4-73ZM-T5T7-VZYW-HT9X-XXXX"\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Package Manager] Server::Start -- Port 65499 was selected
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2019.4.9f1\Editor\Unity.exe
+-quit
+-batchmode
+-logFile
+stdout.log
+-executeMethod
+Editor.Build
+-environment
+dev
+-target
+windows
+D:/dev/unityBuild
+Using Asset Import Pipeline V2.
+DisplayProgressbar: Unity Package Manager
+Adding genesis user token [Package Manager] Done resolving packages in 1.66s seconds
+[Package Manager] Done checking package constraints in 0.00s seconds
+[Package Manager] 
+Registered 40 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@1.2.16 (location: D:\dev\unityBuild\Library\PackageCache\com.unity.collab-proxy@1.2.16)
+    com.unity.ide.rider@1.1.4 (location: D:\dev\unityBuild\Library\PackageCache\com.unity.ide.rider@1.1.4)
+    com.unity.ide.vscode@1.2.1 (location: D:\dev\unityBuild\Library\PackageCache\com.unity.ide.vscode@1.2.1)
+    com.unity.test-framework@1.1.16 (location: D:\dev\unityBuild\Library\PackageCache\com.unity.test-framework@1.1.16)
+    com.unity.textmeshpro@2.1.1 (location: D:\dev\unityBuild\Library\PackageCache\com.unity.textmeshpro@2.1.1)
+    com.unity.timeline@1.2.16 (location: D:\dev\unityBuild\Library\PackageCache\com.unity.timeline@1.2.16)
+    com.unity.ext.nunit@1.0.0 (location: D:\dev\unityBuild\Library\PackageCache\com.unity.ext.nunit@1.0.0)
+  Built-in packages:
+    com.unity.ugui@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui)
+    com.unity.modules.ai@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Program Files\2019.4.9f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems)
+
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.06s seconds
+Refreshing native plugins compatible for Editor in 31.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.4.9f1 (50fe8a171dd9)
+[Subsystems] Discovering subsystems at path C:/Program Files/2019.4.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/dev/unityBuild/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   
+    VRAM:     5967 MB
+    Driver:   27.21.14.5655
+Initialize mono
+Mono path[0] = 'C:/Program Files/2019.4.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2019.4.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2019.4.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+ImportWorker Server TCP listen port: 64650
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.4.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003056 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.719 seconds
+Registering precompiled user dll's ...
+Registered in 0.052500 seconds.
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000504 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.000403 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Consider updating External Editor in Unity to Rider Rider 202.7660.16 (JetBrains Toolbox).
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+Packages.Rider.Editor.RiderScriptEditor:.cctor() (at Library\PackageCache\com.unity.ide.rider@1.1.4\Rider\Editor\RiderScriptEditor.cs:56)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes(Type[])
+ 
+(Filename: Library/PackageCache/com.unity.ide.rider@1.1.4/Rider/Editor/RiderScriptEditor.cs Line: 56)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Platform modules already initialized, skipping
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 0.000ms
+	InvokeBeforeRefreshCallbacks: 1693.374ms
+	ApplyChangesToAssetFolders: 0.521ms
+	WriteModifiedImportersToTextMetaFiles: 0.202ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 0.000ms
+	OnSourceAssetsModified: 88.183ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 0.000ms
+	GetAllGuidsForCategorization: 0.172ms
+	CategorizeAssets: 0.083ms
+	ImportAndPostprocessOutOfDateAssets: 25.246ms (1568.646ms without children)
+		ImportManagerImport: 1567.951ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 0.001ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.000ms
+		InitializingProgressBar: 0.148ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.153ms
+		RestoreLoadedAssetsState: 0.000ms
+	InvokeProjectHasChanged: 0.393ms
+	UpdateImportedAssetsSnapshot: 0.000ms
+	ReloadSourceAssets: 0.000ms
+	UnloadImportedAssets: 0.294ms
+	Hotreload: 0.003ms
+	FixTempGuids: 0.323ms
+	VerifyGuidPMRegistrations: 0.004ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 0.002ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.803ms
+	GetLoadedSourceAssetsSnapshot: 0.003ms
+	PersistCurrentRevisions: 0.464ms
+	UnloadStreamsEnd: 0.000ms
+	GenerateScriptTypeHashes: 7.139ms
+Start importing Library/BuildPlayer.prefs using Guid(00000000000000005000000000000000) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Library/BuildPlayer.prefs' (target hash: 'fe3108a9ccf4ffdc149e560e6cf05620') in 0.024320 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed in 0.215415 seconds.
+RefreshInfo: RefreshV2(ForceSynchronousImport)
+RefreshProfiler: Total: 0.000ms
+	InvokeBeforeRefreshCallbacks: 215.400ms
+	ApplyChangesToAssetFolders: 0.438ms
+	WriteModifiedImportersToTextMetaFiles: 0.079ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 0.000ms
+	OnSourceAssetsModified: 71.099ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 0.000ms
+	GetAllGuidsForCategorization: 3.790ms
+	CategorizeAssets: 0.103ms
+	ImportAndPostprocessOutOfDateAssets: 25.239ms (102.983ms without children)
+		ImportManagerImport: 1.246ms (25.638ms without children)
+			ImportInProcess: 0.851ms
+			ImportOutOfProcess: 24.779ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.008ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 72.978ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.000ms
+		InitializingProgressBar: 0.173ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.002ms
+		OnDemandSchedulerStart: 0.119ms
+		RestoreLoadedAssetsState: 0.458ms
+	InvokeProjectHasChanged: 0.607ms
+	UpdateImportedAssetsSnapshot: 0.000ms
+	ReloadSourceAssets: 1.761ms
+	UnloadImportedAssets: 0.284ms
+	Hotreload: 0.085ms
+	FixTempGuids: 8.566ms
+	VerifyGuidPMRegistrations: 0.009ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 0.170ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.015ms
+	GetLoadedSourceAssetsSnapshot: 0.395ms
+	PersistCurrentRevisions: 1.296ms
+	UnloadStreamsEnd: 0.000ms
+	GenerateScriptTypeHashes: 0.044ms
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport)
+RefreshProfiler: Total: 0.000ms
+	InvokeBeforeRefreshCallbacks: 47.729ms
+	ApplyChangesToAssetFolders: 0.417ms
+	WriteModifiedImportersToTextMetaFiles: 0.074ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 0.000ms
+	OnSourceAssetsModified: 42.554ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 0.000ms
+	GetAllGuidsForCategorization: 2.894ms
+	CategorizeAssets: 0.000ms
+	ImportAndPostprocessOutOfDateAssets: 0.000ms (0.000ms without children)
+		ImportManagerImport: 0.000ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 0.000ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.000ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.000ms
+		RestoreLoadedAssetsState: 0.000ms
+	InvokeProjectHasChanged: 0.000ms
+	UpdateImportedAssetsSnapshot: 0.000ms
+	ReloadSourceAssets: 0.000ms
+	UnloadImportedAssets: 0.000ms
+	Hotreload: 0.000ms
+	FixTempGuids: 0.024ms
+	VerifyGuidPMRegistrations: 0.005ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 0.147ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.034ms
+	GetLoadedSourceAssetsSnapshot: 0.522ms
+	PersistCurrentRevisions: 0.454ms
+	UnloadStreamsEnd: 0.000ms
+	GenerateScriptTypeHashes: 0.011ms
+Refresh completed in 0.111700 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 0.000ms
+	InvokeBeforeRefreshCallbacks: 111.675ms
+	ApplyChangesToAssetFolders: 0.649ms
+	WriteModifiedImportersToTextMetaFiles: 0.074ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 0.000ms
+	OnSourceAssetsModified: 78.031ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 0.000ms
+	GetAllGuidsForCategorization: 2.259ms
+	CategorizeAssets: 0.117ms
+	ImportAndPostprocessOutOfDateAssets: 25.647ms (1.918ms without children)
+		ImportManagerImport: 0.616ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 0.000ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.000ms
+		InitializingProgressBar: 0.193ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.099ms
+		RestoreLoadedAssetsState: 0.182ms
+	InvokeProjectHasChanged: 0.828ms
+	UpdateImportedAssetsSnapshot: 0.000ms
+	ReloadSourceAssets: 0.000ms
+	UnloadImportedAssets: 0.601ms
+	Hotreload: 0.100ms
+	FixTempGuids: 0.077ms
+	VerifyGuidPMRegistrations: 0.004ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 0.157ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.044ms
+	GetLoadedSourceAssetsSnapshot: 0.603ms
+	PersistCurrentRevisions: 1.253ms
+	UnloadStreamsEnd: 0.000ms
+	GenerateScriptTypeHashes: 0.009ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Initializing Unity extensions:
+ 'C:/Program Files/2019.4.9f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+Unloading 50 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 39.8 MB.
+System memory in use after: 39.1 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 1381.
+Total: 3.452100 ms (FindLiveObjects: 0.656500 ms CreateObjectMapping: 0.057700 ms MarkObjects: 1.945100 ms  DeleteObjects: 0.791900 ms)
+
+Start importing ProjectSettings/GraphicsSettings.asset using Guid(00000000000000006100000000000000) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'ProjectSettings/GraphicsSettings.asset' (target hash: '8428df6eae24e4e1c5a9fd8509287bd8') in 0.013246 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 0.000ms
+	InvokeBeforeRefreshCallbacks: 161.525ms
+	ApplyChangesToAssetFolders: 0.362ms
+	WriteModifiedImportersToTextMetaFiles: 0.078ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 0.000ms
+	OnSourceAssetsModified: 85.383ms
+	UnregisterDeletedAssets: 0.814ms
+	InitializeImportedAssetsSnapshot: 0.000ms
+	GetAllGuidsForCategorization: 3.629ms
+	CategorizeAssets: 0.086ms
+	ImportAndPostprocessOutOfDateAssets: 0.709ms (66.837ms without children)
+		ImportManagerImport: 1.072ms (55.413ms without children)
+			ImportInProcess: 0.941ms
+			ImportOutOfProcess: 54.449ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.023ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 7.300ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.000ms
+		InitializingProgressBar: 0.147ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.002ms
+		OnDemandSchedulerStart: 0.124ms
+		RestoreLoadedAssetsState: 0.206ms
+	InvokeProjectHasChanged: 0.849ms
+	UpdateImportedAssetsSnapshot: 0.000ms
+	ReloadSourceAssets: 1.724ms
+	UnloadImportedAssets: 0.683ms
+	Hotreload: 0.066ms
+	FixTempGuids: 0.767ms
+	VerifyGuidPMRegistrations: 0.004ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 0.162ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.098ms
+	GetLoadedSourceAssetsSnapshot: 0.588ms
+	PersistCurrentRevisions: 1.918ms
+	UnloadStreamsEnd: 0.000ms
+	GenerateScriptTypeHashes: 0.072ms
+[ScriptCompilation] Recompiling all scripts because: Recompiling scripts for player build.
+BuildPlayer: start building target 19
+- Starting script compilation
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll in 5,625131 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll in 5,745118 seconds
+- Starting compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/PlayerScriptAssemblies/Unity.Timeline.dll
+- Finished compile Library/PlayerScriptAssemblies/Unity.Timeline.dll in 1,07449 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll in 1,357993 seconds
+- Starting compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/PlayerScriptAssemblies/Assembly-CSharp.dll in 0,307376 seconds
+- Finished script compilation in 7,51776 seconds
+DisplayProgressbar: Building Player
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineStartPlayback.png using Guid(5060c9f9eb2f7ee4695b638a21d8fe01) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineStartPlayback.png' (target hash: 'cb87d5f6883f526cf46a2b6ee5308df7') in 0.140463 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelinePlayRange.png using Guid(70e3f118652b9094885689730ad3a47b) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelinePlayRange.png' (target hash: '8451112ba9dda1f28b6c8066b5832715') in 0.120856 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineConnector.png using Guid(a04f1625bf500f64e97445265dfbcc93) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineConnector.png' (target hash: 'ed2625aefd82c23f1ec9a603fa3be5fc') in 0.123642 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineHold.png using Guid(a09fd8b5d9396c24a96a6de50cddc3b9) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineHold.png' (target hash: '8f207775d1e77c65f2a185f92d5fd345') in 0.090675 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd using Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd' (target hash: 'd83850efab5666662a7ad59243226618') in 0.082327 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineIconClipIn.png using Guid(4171b549947246b4f9579419d5698a7e) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineIconClipIn.png' (target hash: 'fd3122a46d722cfc53e1d00a92ed9727') in 0.081776 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle.psd using Guid(41b96614b2e6494ba995ddcd252d11ae) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle.psd' (target hash: 'a5c153b526eb16e4fc6a1ed31dbe3829') in 0.061545 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeRippleOFF.png using Guid(411e6f19c19fa0546af83aeb59c2ed4b) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeRippleOFF.png' (target hash: 'cacd4c46cbbf6784220f553fa36ca60f') in 0.130512 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineDisabledBackground.png using Guid(412f73153f3a3c549b67b2a847741145) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineDisabledBackground.png' (target hash: 'aa1165149a698f8998c0f9dfbf122a71') in 0.142704 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineContinue.png using Guid(61c21f74972ba8246b3ea400a9231841) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineContinue.png' (target hash: '4afd09fdd3db6df6eaeba6a4ec148a7d') in 0.146414 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd using Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd' (target hash: '9ded441579a2f300544d994e2a210828') in 0.100812 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeReplaceOFF.png using Guid(912fd71cbf4cbe140b4f240bedbc1f3e) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeReplaceOFF.png' (target hash: '88f8fce224ae6911f6ded03cf90f8556') in 0.099135 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineDigIn.png using Guid(b1d064d6d80829f4eb370f679384ea1f) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineDigIn.png' (target hash: '729faa15ba8418fad67ac9147feffbe2') in 0.094986 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineMarkerItem.png using Guid(c133595e3c100774496e03e66fa69259) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineMarkerItem.png' (target hash: '25143e964947ab3f78b252f0a04df007') in 0.052714 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineMarkerAreaButtonEnabled.png using Guid(d1eccbb425fdacc4ba53ce4223f4ea30) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineMarkerAreaButtonEnabled.png' (target hash: '694529d06ba841491bd2384dfb2ada22') in 0.172236 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineAutokey_active.png using Guid(e17ee60887efdd04389991a15ee0c578) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineAutokey_active.png' (target hash: '29d3c7dbb796795920314e307f1706e0') in 0.109922 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineMarkerItemCollapsed.png using Guid(f179d9a3cccffb04ba2e27f681e9b147) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineMarkerItemCollapsed.png' (target hash: '5e1e172652a7349d0275cedaf581c324') in 0.054076 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft_Light.psd using Guid(12736c98af174f91827a26b66d2b01b9) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft_Light.psd' (target hash: '1b6b06e1d0068b9fc5cee38384694f4a') in 0.063553 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineDigIn.png using Guid(22c3c381bd3cd4a40a8541103023e1ef) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineDigIn.png' (target hash: '62ece24ee930494bed01339201827877') in 0.116306 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineIconClipOut.png using Guid(32f7e3598d6414c489127629e29af3f6) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineIconClipOut.png' (target hash: 'a06f2440e30a74bfac6b49c155565705') in 0.092007 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineOutline.png using Guid(829511f8e35bf3a40be037a1050f801c) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineOutline.png' (target hash: '625bbf06f6dd097d960aade8163877b6') in 0.114819 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineStartPlayback.png using Guid(824c4beb0ca6c934bbc7a26919302236) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineStartPlayback.png' (target hash: '925c612aad01d24a4c8500dae31ddb65') in 0.058503 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified.psd using Guid(92027f7f8cfc4feaa477da0dc38d3d46) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified.psd' (target hash: 'fdb4470a5434c62c6df2364f43a50286') in 0.055426 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineAutokey.png using Guid(92b5e4310629b264dad0fb2cc196d818) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineAutokey.png' (target hash: '2a3e136b368e87bc6327fc6e9aceaeae') in 0.060877 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft.psd using Guid(9288066c33474b94b6ee5465f4df1cc0) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft.psd' (target hash: '0dac44c9bebbd357738f1e5e74bd31d6') in 0.080108 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineCollapseMarkerButtonEnabled.png using Guid(b2d973d22210e734f91a7633b8f101f9) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineCollapseMarkerButtonEnabled.png' (target hash: 'ff90036f62afc9c74ba590118865df49') in 0.055582 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineEndPlayback.png using Guid(c285802d9d414814fad592b90b223f15) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineEndPlayback.png' (target hash: '243eef2b39d271b0cb4f81b2b6fd3003') in 0.071521 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidLine.psd using Guid(c2f7f6a88b4c4f20a53deb72f3d9144c) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidLine.psd' (target hash: '4bf5da13776c1667f5543889f097b7a8') in 0.050738 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineDisabledBackground.png using Guid(0304baf8d224f3e47b22d872c8dcd412) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineDisabledBackground.png' (target hash: '768ebb9490f70735827e663e5f91fa40') in 0.082908 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineDisplay.png using Guid(03ae22b9de3989144a9bebf8972b4fad) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineDisplay.png' (target hash: '9f6a5014ff9192045aae871c9e6f5c1a') in 0.030901 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineClipFG.png using Guid(33b1871a2d09cfa459a93f4e8feb5c41) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineClipFG.png' (target hash: '0b6c4cb08fc85b1b444523a8eeb0f373') in 0.032855 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineMarkerAreaButtonDisabled.png using Guid(33a52b41b4de5874ca7da1da32067e39) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineMarkerAreaButtonDisabled.png' (target hash: '49a1edecfc6d17c19a8d4563192b6b3c') in 0.087543 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelinePlayRange.png using Guid(43eeff8a446b32242a4fb1a5c1bd7b8e) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelinePlayRange.png' (target hash: 'aed7213086d6c2be3064b37e2213ee67') in 0.031574 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineEye@2x.png using Guid(631aaf57db9353344b41fe203d0a8b62) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineEye@2x.png' (target hash: '1ea16418ade92bb3b1860a62195a7659') in 0.032600 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineSelector.png using Guid(73f5ebb64da7b2a40ab6bffac80f1a61) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineSelector.png' (target hash: 'a836f1aee8f544bbb149e1ad57bfd73c') in 0.057162 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineLockButton.png using Guid(a3a859cdc4dd70d40b0d0bcb44047de8) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineLockButton.png' (target hash: '9875f43112734ff624b2dc52845a6ece') in 0.031414 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineMarkerAreaButtonDisabled.png using Guid(b3644a971cca0bd4eb357cb9aca4dde1) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineMarkerAreaButtonDisabled.png' (target hash: '5da739dfdc828dfce511b99cfc2b9b59') in 0.089377 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelinePingPong.png using Guid(d3b5c4f7d6b94f64085b3713bffa680e) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelinePingPong.png' (target hash: 'ae37e6b640d1c3d2ee908b286195d4cf') in 0.086875 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/SectionHeader_Light.psd using Guid(e3b0f810fdea84e40ab4ba20f256f7e8) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/SectionHeader_Light.psd' (target hash: '1a34a0bc5e0c198993981d3331940720') in 0.067508 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineCollapseMarkerButtonDisabled.png using Guid(14793e8174fe3b04ea5907898393d93c) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineCollapseMarkerButtonDisabled.png' (target hash: '359f4996e9d174e72e0b413a0d443098') in 0.048313 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineMarkerItem.png using Guid(24b97c67b63a23b48bea4036d28a5818) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineMarkerItem.png' (target hash: '1a23543c4cd9517a9db56efae5024c3f') in 0.054214 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight.psd using Guid(342a0f8aca7f4f0691338912faec0494) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight.psd' (target hash: 'b2c0f5ce601494a8fb5545403033216f') in 0.082524 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush_Light.psd using Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush_Light.psd' (target hash: '46c89760301b5d504afa24ab9e7a457e') in 0.081135 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/Timeline-Marker-Warning-Overlay.png using Guid(945f4ecec6df62244b9ebcc363833642) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/Timeline-Marker-Warning-Overlay.png' (target hash: '06c4a7ce26c9e3e78efb027d9d0ece1e') in 0.076762 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineClipBG.png using Guid(d44fc8b11425e0043aa7c20a301ce707) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineClipBG.png' (target hash: 'ddfbddeb72e2014e78ed6572524e24ee') in 0.058377 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineLockButton.png using Guid(f41d3194e87f6df4eb328916fd91d20c) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineLockButton.png' (target hash: '4dab0af7e41c16198eac0184f274b3f3') in 0.065797 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineCollapseMarkerButtonEnabled.png using Guid(1500816bcf9112a45bb071c4cc6b0e46) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineCollapseMarkerButtonEnabled.png' (target hash: '41a9b08dfe15174240b967905f51f730') in 0.063864 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineSignal.png using Guid(15845fb26c2846947b4dedb9fb348cc1) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineSignal.png' (target hash: '48188d96a02a04429afbeb1b061ea35d') in 0.061774 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineActivation.png using Guid(359cf58d5969d1a4aad29b095c7fc338) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineActivation.png' (target hash: '21e8c9f9d63440cd9b0b421b462918ed') in 0.085254 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd using Guid(35ff0937876540d3bd4b6a941df62a92) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd' (target hash: '3e0cb082db994a05ece9a5d7ab76440a') in 0.091458 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/Timeline-Marker-Multi-Overlay.png using Guid(75f26f1c549568c4e9950a368bd08cb8) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/Timeline-Marker-Multi-Overlay.png' (target hash: '50034aac98a077a202252480e42ccc98') in 0.044047 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineSignalSelected.png using Guid(a5e21f4e466690645980dd0cf0b664bc) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineSignalSelected.png' (target hash: '37b66ab61572996304a3adc0cbd5a7e3') in 0.033133 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeRippleON.png using Guid(c5c1f094d9a9b3f4c9cc6c3a87af871c) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeRippleON.png' (target hash: 'a024ac520c328375da784e5bc75ff2e7') in 0.047998 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineLockButton@2x.png using Guid(d51d89aa019127a4e9c5bec4e423a4d6) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineLockButton@2x.png' (target hash: '3393cd90dbc5e72e28f5e327d1c82b63') in 0.031460 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineSwatch.png using Guid(e50018fd67fc156459e4014bdad3f5f6) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineSwatch.png' (target hash: '5ac74ca9c0d6d53f1cd52c7d9b904c8f') in 0.052706 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd using Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd' (target hash: 'c0efebd33a6ef13898d86f9485d37270') in 0.053290 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineSelector.png using Guid(06bf6150656339941aa98e175a995445) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineSelector.png' (target hash: '410c99557f98b4c48c49cc7541083219') in 0.033615 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineLoop.png using Guid(360dded8761e81d4d98c10f469d55492) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineLoop.png' (target hash: '95767754a9a952fb7ac3d33e7761df47') in 0.046081 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineMarkerItemSelected.png using Guid(b6e9dc9aad5843748a0124b8925c3743) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineMarkerItemSelected.png' (target hash: '22d614624885bcd04a2f23979c3fc181') in 0.032760 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineAutokey_active@2x.png using Guid(f6717d61970edba4686c297677881a77) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineAutokey_active@2x.png' (target hash: 'fa4cfe31860415e90bab5ce17d8228c4') in 0.070253 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineWarning.png using Guid(1732e542f535d374bbfa7565fc78414e) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineWarning.png' (target hash: 'b6c7b5d7a2cc46631a36c4dcdd0b5bee') in 0.055448 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeRippleON.png using Guid(67a774c4384aa6c488128e2851b18ced) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeRippleON.png' (target hash: '743da9ce30668c92b6caa91b99ddb3f7') in 0.030424 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineIconClipOut.png using Guid(a7a968b204ed77c4ba90be3ef3ee8551) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineIconClipOut.png' (target hash: 'd970eb1b450f995e42fd68a4d6d0a501') in 0.083380 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Dropdown Icon.psd using Guid(a7ec9e7ad8b847b7ae4510af83c5d868) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Dropdown Icon.psd' (target hash: '0ec2b36b9dd95e69c2f93c06f5e4ce86') in 0.074368 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd using Guid(c76700ea0062413d9f69409b4e9e151b) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd' (target hash: '999836ee95e2ba556d359a186da3f91c') in 0.056940 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineLoop.png using Guid(c7df1e797b21c774f9b859d17f674737) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineLoop.png' (target hash: 'd5eac44ba692a7ac31ced5aab42917cd') in 0.077090 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineContinue.png using Guid(f747f9cdf03f2ff418fe728a77e8cbef) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineContinue.png' (target hash: '825e9988beeac167cfd0d3ccf4fa4edb') in 0.086481 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd' (target hash: '51aedc043d166ccfc4a020fcdce3db18') in 0.032577 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineAutokey_active@2x.png using Guid(183f7b7549219ab47becb461a16df882) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineAutokey_active@2x.png' (target hash: '6044d4678b1b396426b64fb0805d1c1f') in 0.047685 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineActivation.png using Guid(2887294cc7f1fe840bff6e349409648d) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineActivation.png' (target hash: '84ce4a80e452d684f43fe05bbc26bbfa') in 0.062129 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop.psd using Guid(48d034c499ee4697af9dd6e327110249) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop.psd' (target hash: '68a240cc96c27c9b4b755cb1d7074e3d') in 0.053567 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd using Guid(585b70cb75dd43efbfead809c30a1731) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd' (target hash: '9220fa98d4bb06e3ff6bd698565ac2d4') in 0.060823 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineCurvesOn.png using Guid(88e563d69bc649c4dbf8ffbe396fbcbe) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineCurvesOn.png' (target hash: 'd8b9a1b74c7f060d6827673966495425') in 0.049466 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelinePingPong.png using Guid(88d697f38121de443ba144702e5122d9) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelinePingPong.png' (target hash: 'b6a2103d3c98be443ca4fe154aa6ba28') in 0.030393 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeMixON.png using Guid(a82846d41464fcf4b962ebdc815963f5) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeMixON.png' (target hash: '638a3cead6fcca3c616711d7fb65db03') in 0.061004 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineSignalCollapsed.png using Guid(a88fa20ed164bbe4da6bf533f94a3113) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineSignalCollapsed.png' (target hash: '6fb3362b3e53dbedc1ba0aac86850fca') in 0.063679 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeReplaceOFF.png using Guid(09ae14686a02d484ab41e76fd1efba14) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeReplaceOFF.png' (target hash: 'd8851ac7899381c91fa63542edad0e7b') in 0.033720 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixOFF.png using Guid(39d9575ed0465354cb02b69ea18526de) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixOFF.png' (target hash: 'a653de378b1f343d9b38a80c09058aae') in 0.049590 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd using Guid(49679f302ac6408697f6b9314a38985c) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd' (target hash: '56d4ef0429524343e295f9696f838fff') in 0.052297 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineEndPlayback.png using Guid(6952cd3b0f88917449a8fa4d19fc5009) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineEndPlayback.png' (target hash: '412d79815dfafc09b502f8bba05e814a') in 0.051899 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush.psd using Guid(691475c57a824010be0c6f474caeb7e1) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush.psd' (target hash: '7726776269e50bb5f88dae33c74bfc2a') in 0.062542 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineInfiniteTrackNoShadow.png using Guid(69ff79f863a32ad44a9497d4896d9d1c) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineInfiniteTrackNoShadow.png' (target hash: 'e585fd6a94d6236d54dead872d2fe682') in 0.037941 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineEye.png using Guid(b93a8712e80177f46b3cff1a274b2dce) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineEye.png' (target hash: '7d0158aec9d7aec45352ce37e475f3f4') in 0.034877 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineSignalCollapsed.png using Guid(d91793cd853a258448e4d5545bb38e45) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineSignalCollapsed.png' (target hash: '804d99d4ab5295605ccbee89af1240fc') in 0.035005 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineKeyframe.png using Guid(f9fd2f335364cda41937eab39bf20049) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineKeyframe.png' (target hash: '25d36299a5dfb78d658c09ae44c314c3') in 0.034830 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineCurvesOn.png using Guid(0ab0f1666e707204dbd25d05500361cf) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineCurvesOn.png' (target hash: '6b16e041c4fe4da2bbce3246b147cff9') in 0.055660 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineAutokey_active.png using Guid(0a5e3e063c4e1ab45999cf6e40c13c07) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineAutokey_active.png' (target hash: 'e34f4911cd339f6a2b7bd7f74195047d') in 0.031696 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineSignalSelected.png using Guid(1a7852b1b33b816498b6af1e739f5995) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineSignalSelected.png' (target hash: '665d53b01838535f5007c9e461fb6529') in 0.061476 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd using Guid(6ace62d30f494c948b71d5594afce11d) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd' (target hash: '7d8669d0f9396cf1ba5c428387041a03') in 0.058239 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd using Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd' (target hash: '62026e00f85661dd4ee649eb67aa9f9f') in 0.060522 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineInfiniteTrackNoShadow.png using Guid(eae63adb172f1164db61a7f4bdfc3637) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineInfiniteTrackNoShadow.png' (target hash: 'f09ab44f5629f759651f47f7bf898bb7') in 0.062880 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd using Guid(fa6bd40a216346b783a4cce741d277a5) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd' (target hash: '9fd5626c652c57536d988fba9373b341') in 0.032933 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineTimeCursor.png using Guid(3b9e9b3d9ade166499e7a17109ca73bf) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineTimeCursor.png' (target hash: '905f5321719deb9bd03d600268828384') in 0.031163 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeReplaceON.png using Guid(7b4b3cedf598c954cb2f38d6e2e34c0d) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeReplaceON.png' (target hash: 'c008aba794fa0e28534319bf95326cdb') in 0.031956 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd using Guid(8bc445bb79654bf496c92d0407840a92) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd' (target hash: 'c5d3c8ccdff9b0d89eeb8a36ab37528d') in 0.077595 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineCollapseMarkerButtonDisabled.png using Guid(ab4a984ceda5ef4438b4dd7d0c8325db) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineCollapseMarkerButtonDisabled.png' (target hash: '9d81a5f8c98f77e43495ad93857570fc') in 0.030466 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineIconClipIn.png using Guid(ab1e2f0dfb0df5e40bb95359b3d8ed3a) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineIconClipIn.png' (target hash: '18716ade35479cc0574e036b66707e9c') in 0.032483 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidline_Light.psd using Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidline_Light.psd' (target hash: '9f9b85f2f9d2ea628278bdc1bf4e2b3f') in 0.060825 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineBottomShadow.png using Guid(db66ea47c76423f4a881937d34495801) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineBottomShadow.png' (target hash: '4d89d8ee8dab074a524e391451b6f399') in 0.030517 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/SectionHeader_Dark.psd using Guid(fb5730e24283d0c489e5c7d0bee023d9) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/SectionHeader_Dark.psd' (target hash: 'bb0ad02e70b3a5e692fb96b53085d8e0') in 0.060146 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineGroupBackground.png using Guid(6ca5daa3415451940921fa7e2c3db9e8) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineGroupBackground.png' (target hash: 'a232afb7c5332dc9cbeb5976051f124e') in 0.030677 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixON.png using Guid(7c681ffb5a436684fa3e98a9b66775c0) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeMixON.png' (target hash: '0a963ad639beae01f987d1e7c7fae933') in 0.034597 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineMarkerAreaButtonEnabled.png using Guid(8cde79655a957734b8c20c92c6d3132d) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineMarkerAreaButtonEnabled.png' (target hash: '0991bf415cc7d9f5d045881a4d8bc82f') in 0.029634 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineLockButton@2x.png using Guid(9c0c310590aeee542a7a4ca704b0660a) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineLockButton@2x.png' (target hash: 'b2b790ece68f01da7b002ee7d435df35') in 0.033690 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Sprite Asset Icon.psd using Guid(ec7c645d93308c04d8840982af12101e) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Sprite Asset Icon.psd' (target hash: '0aa6985fce1210f2ca98fcef90978e1e') in 0.058390 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd' (target hash: 'c6f9076659e62f1c5dcb47d7971be159') in 0.031656 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineEye@2x.png using Guid(2dc127b7c30543c428127a6ddd0ee98f) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineEye@2x.png' (target hash: '13cd5a04a8f9a182f16e6315ae01b036') in 0.030403 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineMarkerItemSelected.png using Guid(3dd65256ca8837544b3e738c0d3ee0e2) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineMarkerItemSelected.png' (target hash: 'a023cfa937ed7a7e331fa1f8059b833a') in 0.058073 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineSeqEnd.png using Guid(5dfe66e61e0d270468ae75349ff3a3eb) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineSeqEnd.png' (target hash: '235aeec8fdbeac45b9de36cec2e72f08') in 0.038540 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeReplaceON.png using Guid(6d41c3e8796a4fd4e80840354039e4ac) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeReplaceON.png' (target hash: 'a470ffd475484757cbbdac7d6689c634') in 0.036894 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineMarkerItemCollapsed.png using Guid(7d4691eba7565c34ab785c00fbc27ff8) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineMarkerItemCollapsed.png' (target hash: 'c4389a04c95564b9f9183b972c1a4aab') in 0.027768 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineCurvesOff.png using Guid(9dfea116cd2bd974e80173bcf8db4331) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineCurvesOff.png' (target hash: '246995a4cb8fe3d256feffe09033bfd1') in 0.029748 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineSignal.png using Guid(ad2e3e92b00839c4e991ca602ef19822) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineSignal.png' (target hash: '1483ede2aec334c8cd693c34cf44f8f3') in 0.032265 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeRippleOFF.png using Guid(bd7b7cac6eb0c3f469781d9a729a1c94) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeRippleOFF.png' (target hash: 'ffbd09ea2323340369cff0a304a21ae8') in 0.033476 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineHold.png using Guid(ddbd45249a133a846b2f20e39b537565) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineHold.png' (target hash: '983bd4118111521ae2b569b168e843b7') in 0.049281 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop_Light.psd using Guid(ed041e68439749a69d0efa0e3d896c2e) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop_Light.psd' (target hash: '18b7a0307d58e84f812645cfa1a44b9e') in 0.033525 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineTimeCursor.png using Guid(ed665472b4fee2043a5c1cc802beaa8e) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineTimeCursor.png' (target hash: '07dec2b3e65ead6a24c60ecfb40ed488') in 0.031314 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Input Field Icon.psd using Guid(3ee40aa79cd242a5b53b0b0ca4f13f0f) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Input Field Icon.psd' (target hash: 'ca8b1829646ccf4065e21aff2635a583') in 0.068446 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineEye.png using Guid(3e39a4369cb0730479607382c383f786) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineEye.png' (target hash: '4913e260126c372cb1700fbf4ed15c1c') in 0.030636 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineKeyframe.png using Guid(8eba099eb091faf419fecdcd5cdabfd7) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineKeyframe.png' (target hash: '1ef35c6847123704aa4179c42a7d8451') in 0.030768 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd using Guid(ee148e281f3c41c5b4ff5f8a5afe5a6c) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd' (target hash: '62b677d4b3950fae07c527d59bb70a91') in 0.038349 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineCurvesOff.png using Guid(fe163a92c54d2a1469c204b541041f09) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineCurvesOff.png' (target hash: '8224fb0379573b94829eec743bc4b60a') in 0.054641 seconds
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd using Guid(2fd6421f253b4ef1a19526541f9ffc0c) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd' (target hash: '65c73e815ba3fa286db6ff68569beca2') in 0.035222 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineHeaderMarkerIcon.png using Guid(4f8d98ef7dbbe3d469e14c04722cbeed) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineHeaderMarkerIcon.png' (target hash: '48743061492f9a57b1083f169f5834ef') in 0.031048 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeMixOFF.png using Guid(8fca5ed160cdc5440a4c7561db4082b2) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineEditModeMixOFF.png' (target hash: 'daf02eaff524d2c5b3026ac110da5502') in 0.031010 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineAutokey@2x.png using Guid(af24c542434a025448222d576f61a956) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineAutokey@2x.png' (target hash: 'e7e3e94711316a8c762f8b90d2f44540') in 0.055178 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineAutokey.png using Guid(af3aec622aef40c45813b39e405966a3) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineAutokey.png' (target hash: 'ded5e7eb4c4b2c80c570ff4a58e97157') in 0.032150 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineHeaderMarkerIcon.png using Guid(bf1debab21103154b99778ba6e074175) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/TimelineHeaderMarkerIcon.png' (target hash: 'd0452818d7d298c6e1da02d11046eacc') in 0.029720 seconds
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineAutokey@2x.png using Guid(cf3fbf98d5c3f1941bd9c0256918a4c8) Importer(-1,00000000000000000000000000000000)
+Done importing asset: 'Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineAutokey@2x.png' (target hash: '38d8b165e6762e654f32273e9c8d3bd4') in 0.029673 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed in 10.623789 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 0.000ms
+	InvokeBeforeRefreshCallbacks: 10623.764ms
+	ApplyChangesToAssetFolders: 0.437ms
+	WriteModifiedImportersToTextMetaFiles: 0.074ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 0.000ms
+	OnSourceAssetsModified: 130.071ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 0.000ms
+	GetAllGuidsForCategorization: 2.981ms
+	CategorizeAssets: 0.101ms
+	ImportAndPostprocessOutOfDateAssets: 27.827ms (10454.613ms without children)
+		ImportManagerImport: 0.927ms (8812.598ms without children)
+			ImportInProcess: 5.080ms
+			ImportOutOfProcess: 8806.559ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.958ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 1637.290ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.130ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.000ms
+		InitializingProgressBar: 0.178ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.146ms
+		RestoreLoadedAssetsState: 0.239ms
+	InvokeProjectHasChanged: 0.991ms
+	UpdateImportedAssetsSnapshot: 0.000ms
+	ReloadSourceAssets: 2.112ms
+	UnloadImportedAssets: 0.567ms
+	Hotreload: 0.090ms
+	FixTempGuids: 3.005ms
+	VerifyGuidPMRegistrations: 0.004ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 0.153ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.058ms
+	GetLoadedSourceAssetsSnapshot: 0.468ms
+	PersistCurrentRevisions: 1.969ms
+	UnloadStreamsEnd: 0.000ms
+	GenerateScriptTypeHashes: 1.076ms
+Refresh completed in 0.105881 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 0.000ms
+	InvokeBeforeRefreshCallbacks: 105.864ms
+	ApplyChangesToAssetFolders: 0.354ms
+	WriteModifiedImportersToTextMetaFiles: 0.071ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 0.000ms
+	OnSourceAssetsModified: 72.408ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 0.000ms
+	GetAllGuidsForCategorization: 2.861ms
+	CategorizeAssets: 0.102ms
+	ImportAndPostprocessOutOfDateAssets: 25.309ms (2.141ms without children)
+		ImportManagerImport: 0.897ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 0.000ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.000ms
+		InitializingProgressBar: 0.202ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.114ms
+		RestoreLoadedAssetsState: 0.167ms
+	InvokeProjectHasChanged: 0.760ms
+	UpdateImportedAssetsSnapshot: 0.000ms
+	ReloadSourceAssets: 0.000ms
+	UnloadImportedAssets: 0.880ms
+	Hotreload: 0.102ms
+	FixTempGuids: 0.029ms
+	VerifyGuidPMRegistrations: 0.004ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 0.141ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.007ms
+	GetLoadedSourceAssetsSnapshot: 0.612ms
+	PersistCurrentRevisions: 1.274ms
+	UnloadStreamsEnd: 0.000ms
+	GenerateScriptTypeHashes: 0.012ms
+Refresh completed in 0.113287 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions)
+RefreshProfiler: Total: 0.000ms
+	InvokeBeforeRefreshCallbacks: 113.267ms
+	ApplyChangesToAssetFolders: 0.458ms
+	WriteModifiedImportersToTextMetaFiles: 0.080ms
+	CleanLegacyArtifacts: 0.000ms
+	Scan: 0.000ms
+	OnSourceAssetsModified: 79.314ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 0.000ms
+	GetAllGuidsForCategorization: 2.580ms
+	CategorizeAssets: 0.086ms
+	ImportAndPostprocessOutOfDateAssets: 25.838ms (2.217ms without children)
+		ImportManagerImport: 0.689ms (0.000ms without children)
+			ImportInProcess: 0.000ms
+			ImportOutOfProcess: 0.000ms
+			UpdateCategorizedAssets: 0.000ms
+			RemoteAssetCacheGetArtifact: 0.000ms (0.000ms without children)
+				RemoteAssetCacheResolve: 0.000ms
+				RemoteAssetCacheDownloadFile: 0.000ms
+		CompileScripts: 0.000ms
+		PostProcessAllAssets: 0.000ms
+		ReloadImportedAssets: 0.000ms
+		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.000ms
+		InitializingProgressBar: 0.246ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.121ms
+		RestoreLoadedAssetsState: 0.203ms
+	InvokeProjectHasChanged: 0.957ms
+	UpdateImportedAssetsSnapshot: 0.000ms
+	ReloadSourceAssets: 0.000ms
+	UnloadImportedAssets: 0.671ms
+	Hotreload: 0.113ms
+	FixTempGuids: 0.051ms
+	VerifyGuidPMRegistrations: 0.006ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 0.145ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.014ms
+	GetLoadedSourceAssetsSnapshot: 0.723ms
+	PersistCurrentRevisions: 1.399ms
+	UnloadStreamsEnd: 0.000ms
+	GenerateScriptTypeHashes: 0.016ms
+Opening scene 'Assets/scenes/c1.unity'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/scenes/c1.unity'
+	Deserialize:            14.947 ms
+	Integration:            23.822 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       13.474 ms
+	Total Operation Time:   52.247 ms
+System memory in use before: 41.4 MB.
+System memory in use after: 41.1 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 1454.
+Total: 5.510800 ms (FindLiveObjects: 0.543700 ms CreateObjectMapping: 0.048900 ms MarkObjects: 4.479500 ms  DeleteObjects: 0.437800 ms)
+
+
+
+Mono dependencies included in the build
+Dependency assembly - System.Diagnostics.StackTrace.dll
+Dependency assembly - System.Globalization.Extensions.dll
+Dependency assembly - System.Runtime.Serialization.Xml.dll
+Dependency assembly - System.Xml.XPath.XDocument.dll
+Dependency assembly - netstandard.dll
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.ComponentModel.Composition.dll
+Dependency assembly - System.Configuration.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.Data.dll
+Dependency assembly - System.Drawing.dll
+Dependency assembly - System.EnterpriseServices.dll
+Dependency assembly - System.IO.Compression.FileSystem.dll
+Dependency assembly - System.IO.Compression.dll
+Dependency assembly - System.Net.Http.dll
+Dependency assembly - System.Numerics.dll
+Dependency assembly - System.Runtime.Serialization.dll
+Dependency assembly - System.ServiceModel.Internals.dll
+Dependency assembly - System.Transactions.dll
+Dependency assembly - System.Xml.Linq.dll
+Dependency assembly - System.Xml.dll
+Dependency assembly - System.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - Assembly-CSharp.dll
+Dependency assembly - Unity.TextMeshPro.dll
+Dependency assembly - Unity.Timeline.dll
+Dependency assembly - UnityEngine.UI.dll
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.6 MB.
+System memory in use after: 46.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1427.
+Total: 4.434500 ms (FindLiveObjects: 0.501500 ms CreateObjectMapping: 0.044800 ms MarkObjects: 3.556700 ms  DeleteObjects: 0.330900 ms)
+
+[EnlightenBakeManager] m_Clear = false;
+Setting up 4 worker threads for Enlighten.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+  Thread -> id: 37ac -> priority: 1 
+  Thread -> id: 475c -> priority: 1 
+  Thread -> id: 258c -> priority: 1 
+  Thread -> id: 32b8 -> priority: 1 
+System memory in use before: 46.0 MB.
+System memory in use after: 46.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1440.
+Total: 4.155800 ms (FindLiveObjects: 0.511000 ms CreateObjectMapping: 0.045700 ms MarkObjects: 3.590400 ms  DeleteObjects: 0.008000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.5 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 157 unused Assets to reduce memory usage. Loaded Objects now: 1427.
+Total: 46.158400 ms (FindLiveObjects: 0.908400 ms CreateObjectMapping: 0.056100 ms MarkObjects: 5.167400 ms  DeleteObjects: 40.025200 ms)
+
+DisplayProgressbar: Compiling shader variants
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Compiled shader 'Hidden/Internal-DeferredShading' in 1.04s
+    d3d11 (total internal programs: 54, unique: 54)
+DisplayProgressbar: Building Player
+UnityException: Build path contains project built with "Create Visual Studio Solution" option, which is incompatible with current build settings. Consider building your project into an empty directory.
+  at UnityEditor.WindowsStandalone.WindowsDesktopStandalonePostProcessor.CheckSafeProjectOverwrite (UnityEditor.Modules.BuildPostProcessArgs args) [0x0014e] in <dd3e4685117645eb87b4fbc1a26fcb16>:0 
+  at DesktopStandalonePostProcessor.PostProcess (UnityEditor.Modules.BuildPostProcessArgs args) [0x00002] in <d3ff43e972b043d1b3f49905ec5da738>:0 
+Rethrow as BuildFailedException: Exception of type 'UnityEditor.Build.BuildFailedException' was thrown.
+  at DesktopStandalonePostProcessor.PostProcess (UnityEditor.Modules.BuildPostProcessArgs args) [0x00070] in <d3ff43e972b043d1b3f49905ec5da738>:0 
+  at UnityEditor.Modules.DefaultBuildPostprocessor.PostProcess (UnityEditor.Modules.BuildPostProcessArgs args, UnityEditor.BuildProperties& outProperties) [0x00001] in <d3ff43e972b043d1b3f49905ec5da738>:0 
+  at UnityEditor.PostprocessBuildPlayer.Postprocess (UnityEditor.BuildTargetGroup targetGroup, UnityEditor.BuildTarget target, System.String installPath, System.String companyName, System.String productName, System.Int32 width, System.Int32 height, UnityEditor.BuildOptions options, UnityEditor.RuntimeClassRegistry usedClassRegistry, UnityEditor.Build.Reporting.BuildReport report) [0x000dc] in <d3ff43e972b043d1b3f49905ec5da738>:0 
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions)
+Editor:Build() (at Assets\Editor\Editor.cs:50)
+ 
+(Filename: <dd3e4685117645eb87b4fbc1a26fcb16> Line: 0)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.8 MB.
+System memory in use after: 46.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1443.
+Total: 5.021200 ms (FindLiveObjects: 0.672700 ms CreateObjectMapping: 0.053200 ms MarkObjects: 3.957900 ms  DeleteObjects: 0.336900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.625 ms
+	Integration:            4.136 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       18.388 ms
+	Total Operation Time:   23.153 ms
+System memory in use before: 46.4 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1436.
+Total: 4.340400 ms (FindLiveObjects: 0.610300 ms CreateObjectMapping: 0.080200 ms MarkObjects: 3.639800 ms  DeleteObjects: 0.009600 ms)
+
+Batchmode quit successfully invoked - shutting down!
+[Performance] WinEditorMain                                               :        1 samples, Peak.  1.93 s (1.0x), Avg.  1.93 s, Total. 1.927 s (3.9%)
+[Performance] WinEditorMain.ConfigureCrashHandler                         :        1 samples, Peak.  37.2 us (1.0x), Avg.  37.2 us, Total. 37.20 us (0.0%)
+[Performance] WinEditorMain.CurlRequestInitialize                         :        1 samples, Peak.  1.62 ms (1.0x), Avg.  1.62 ms, Total. 1.621 ms (0.0%)
+[Performance] WinEditorMain.SetupLogFile                                  :        1 samples, Peak.   349 us (1.0x), Avg.   349 us, Total. 349.3 us (0.0%)
+[Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit               :        1 samples, Peak.  11.1 us (1.0x), Avg.  11.1 us, Total. 11.10 us (0.0%)
+[Performance] WinEditorMain.Licensing                                     :        1 samples, Peak.  1.89 s (1.0x), Avg.  1.89 s, Total. 1.894 s (3.8%)
+[Performance] WinEditorMain.InitializeCrashHandler                        :        1 samples, Peak.  29.1 ms (1.0x), Avg.  29.1 ms, Total. 29.12 ms (0.1%)
+[Performance] WinEditorMain.CreateApplication                             :        1 samples, Peak.   374 us (1.0x), Avg.   374 us, Total. 373.6 us (0.0%)
+[Performance] Application.InitializeProject                               :        1 samples, Peak.  9.01 s (1.0x), Avg.  9.01 s, Total. 9.009 s (18.2%)
+[Performance] Application.PackageManager.StartServer                      :        1 samples, Peak.  2.79 ms (1.0x), Avg.  2.79 ms, Total. 2.795 ms (0.0%)
+[Performance] Application.IsBrowserCacheEmpty                             :        1 samples, Peak.  1.09 ms (1.0x), Avg.  1.09 ms, Total. 1.086 ms (0.0%)
+[Performance] Application.AcquireProjectLock                              :        1 samples, Peak.  7.28 ms (1.0x), Avg.  7.28 ms, Total. 7.275 ms (0.0%)
+[Performance] Application.InitializeEngineNoGraphics                      :        1 samples, Peak.  23.6 ms (1.0x), Avg.  23.6 ms, Total. 23.60 ms (0.0%)
+[Performance] Application.PackageManager.Initialize                       :        1 samples, Peak.  2.21 s (1.0x), Avg.  2.21 s, Total. 2.206 s (4.5%)
+[Performance] CurlRequestCheck                                            :       41 samples, Peak.  60.5 us (3.3x), Avg.  18.3 us, Total. 749.2 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously                     :       31 samples, Peak.  90.7 us (4.8x), Avg.  19.1 us, Total. 591.5 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                       :        1 samples, Peak.   179 ms (1.0x), Avg.   179 ms, Total. 178.9 ms (0.4%)
+[Performance] Application.GI.Initialize                                   :        1 samples, Peak.   349 ms (1.0x), Avg.   349 ms, Total. 349.2 ms (0.7%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor               :        1 samples, Peak.  5.51 ms (1.0x), Avg.  5.51 ms, Total. 5.508 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                              :        1 samples, Peak.  1.84 s (1.0x), Avg.  1.84 s, Total. 1.843 s (3.7%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                 :        2 samples, Peak.  37.7 ms (1.1x), Avg.  35.2 ms, Total. 70.42 ms (0.1%)
+[Performance] Application.ReadLicenseInfo                                 :        1 samples, Peak.  29.0 ms (1.0x), Avg.  29.0 ms, Total. 29.05 ms (0.1%)
+[Performance] Application.InitialScriptRefresh                            :        1 samples, Peak.  1.70 s (1.0x), Avg.  1.70 s, Total. 1.695 s (3.4%)
+[Performance] Application.AssetDatabase.Refresh                           :        1 samples, Peak.   216 ms (1.0x), Avg.   216 ms, Total. 215.6 ms (0.4%)
+[Performance] BuildCatalog                                                :        1 samples, Peak.  57.5 ms (1.0x), Avg.  57.5 ms, Total. 57.51 ms (0.1%)
+[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion :        1 samples, Peak.   185 ms (1.0x), Avg.   185 ms, Total. 184.9 ms (0.4%)
+[Performance] Application.SyncCurrentColorSpace                           :        1 samples, Peak.   115 ms (1.0x), Avg.   115 ms, Total. 114.6 ms (0.2%)
+[Performance] Application.OnUsbDevicesChanged                             :        1 samples, Peak.  19.2 ms (1.0x), Avg.  19.2 ms, Total. 19.19 ms (0.0%)
+[Performance] Application.AssetInstanceCacheUpdate                        :        1 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 300.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                      :        1 samples, Peak.   774 us (1.0x), Avg.   774 us, Total. 773.5 us (0.0%)
+[Performance] Application.InitializeManagedCompilationPipeline            :        1 samples, Peak.  64.4 ms (1.0x), Avg.  64.4 ms, Total. 64.41 ms (0.1%)
+[Performance] Application.ExecuteStartups                                 :        1 samples, Peak.  7.32 ms (1.0x), Avg.  7.32 ms, Total. 7.319 ms (0.0%)
+[Performance] Application.RebuildOSMenu                                   :        1 samples, Peak.  52.1 ms (1.0x), Avg.  52.1 ms, Total. 52.08 ms (0.1%)
+[Performance] UpdateAllMenus                                              :        1 samples, Peak.  48.4 ms (1.0x), Avg.  48.4 ms, Total. 48.42 ms (0.1%)
+[Performance] Application.editorInitializingProject                       :        1 samples, Peak.  26.1 us (1.0x), Avg.  26.1 us, Total. 26.10 us (0.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                     :        4 samples, Peak.   800 ns (1.2x), Avg.   675 ns, Total. 2.700 us (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                    :        1 samples, Peak.  41.0 ms (1.0x), Avg.  41.0 ms, Total. 41.01 ms (0.1%)
+[Performance] ProcessService.OnProjectLoaded                              :        1 samples, Peak.  38.3 ms (1.0x), Avg.  38.3 ms, Total. 38.26 ms (0.1%)
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

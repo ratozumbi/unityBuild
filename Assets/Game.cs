@@ -1,25 +1,23 @@
 ﻿
 using System;
+using System.Linq;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Game:MonoBehaviour
 {
-    public enum CustomEnum // your custom enumeration
-    {
-        Prod, 
-        Dev
-    };
-    public CustomEnum dropDown = CustomEnum.Prod;  // this public var should appear as a drop down
+    [Tooltip("Must be null before build.")]
+    public static ConfigurationData configuration;
 
     private void Start()
     {
-        FindObjectOfType<Text>().text = dropDown == CustomEnum.Prod ? "Production" : "Development";
+        if (configuration == null)
+        {
+            configuration = Resources.Load<ConfigurationData>("Config");    
+        }
+        
+        FindObjectOfType<Text>().text = configuration.ServerUrl;
     }
-
-    public void SetEnv(CustomEnum env)
-    {
-        dropDown = env;
-        FindObjectOfType<Text>().text = dropDown == CustomEnum.Prod ? "Production" : "Development";
-    }
+    
 }

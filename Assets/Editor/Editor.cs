@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
@@ -10,7 +11,7 @@ class Editor: EditorWindow {
         // Place all your scenes here
         string[] scenes = {"Assets/scenes/c1.unity"};
 
-        string pathToDeploy = "buildAll";
+        string pathToDeploy = "builds";
         string[] args = System.Environment.GetCommandLineArgs();
 
         string env = "";
@@ -28,9 +29,18 @@ class Editor: EditorWindow {
             }
         }
 
+        ConfigurationData newConfig = ScriptableObject.CreateInstance<ConfigurationData> ();
+
+        if (env.Contains("dev"))
+        {
+            newConfig.ServerUrl = "Development";
+        }
+        
+        // Game controller =Resources.FindObjectsOfTypeAll<Game>().First();
+
         // GameObject game = GameObject.FindGameObjectWithTag("GameController");
         // Game controller = game.GetComponent<Game>();
-        //
+        
         // controller.SetEnv(env.Contains("dev") ? Game.CustomEnum.Dev : Game.CustomEnum.Prod);
 
         BuildPlayerOptions options = new BuildPlayerOptions();
@@ -38,9 +48,5 @@ class Editor: EditorWindow {
         options.locationPathName = pathToDeploy;
         options.target = target.Contains("android") ? BuildTarget.Android : BuildTarget.StandaloneWindows64;
         BuildPipeline.BuildPlayer(options);
-        // BuildPipeline.BuildPlayer(scenes, pathToDeploy,
-        //     target.Contains("android") ? BuildTarget.Android : BuildTarget.StandaloneWindows64, BuildOptions.None);
-        //
-        //
     }
 }
